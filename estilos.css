@@ -1,0 +1,118 @@
+:root {
+    --fuenteparrafos: 'Staatliches';
+    --fuenteheading: 'Cursive';
+    --primario: #8d8170;
+    --gris: #575757;
+    --blanco: #ffffff;
+    --negro: #000000;
+}
+
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuenteparrafos);
+    font-size: 2 rem;
+    line-height: 2;
+    height: 10px;
+    padding: 6;
+    background-image: url(Presentador.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:cover;
+    text-align: center;
+    ;
+    
+}
+
+/* Ultima Milla */
+.contenedor {
+    width: min(90%, 120rem);
+    margin: auto;
+    position: relative;
+    overflow:hidden; 
+    
+}
+a {
+    text-decoration: none;
+}
+
+h1, h2  {
+    font-family:ui-rounded;
+    line-height: 1.0;
+    font-weight:100;
+}
+
+h1 {
+    font-size: 4rem;
+    
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+.no-padding {
+    padding: 0;
+}
+
+.centrar-texto {
+    text-align: justify center;
+}
+
+
+/* Header */
+.header {
+    background-image: url(Fondo\ 1.2.jpg);
+    height: 12rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}  
+
+.logo {
+    color: rgb(242, 243, 248);
+}
+
+.logo__nombre {
+    font: weight 30px;;
+}
+
+.logo__bold {
+    font-weight: 10px;
+    color: white;
+    background-position: center center;
+    justify-content: center;
+
+}
+
+.footer {
+    padding-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    margin: 1;
+    display:block
+}
+body,html,footer {
+    padding:0;
+    margin:0;
+    height:100%;
+    overflow:hidden; 
+  
+  }
+
